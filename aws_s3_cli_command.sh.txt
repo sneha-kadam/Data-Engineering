@@ -1,0 +1,1 @@
+aws s3 cp . s3://de-on-youtube-raw-us-east1-dev/youtube/raw_statistics_reference_data/ --recursive --exclude "*" --include "*.json"
